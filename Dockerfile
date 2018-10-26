@@ -12,4 +12,4 @@ COPY ./entrypoint.sh /entrypoint.sh
 COPY ./nginx /nginx-conf
 COPY ./php-fpm /phpfpm-conf
 
-CMD ["/bin/ash", "/entrypoint.sh"]
+#CMD ["/bin/ash", "/entrypoint.sh"]
