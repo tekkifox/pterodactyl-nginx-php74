@@ -1,4 +1,89 @@
-·*^²×±·ømšXmšXmšÈmš[^ÆßÜ²Ç,²×±·üf—¥Šf {ø"~ŸŠf {øézézéªi–'¶*'ş6¯jÇ+Š›c±ªi–'¶*'ı«h›ìf•«h™ªi–'¶*'ş»,û¥®Ë-{™«ašY¦–×±·úej)íÆÛ^ÆßïÛ.=¦yªiuë®*m¢¸Úv×±·ûçw©Âipš[^Æßñr‰©¢w§¶\Šf {úg‚™àŠf {ûb}ûb~ØŸ~)šïïÜ§æ§æ¦)šïñ‰Ê'‰Ê"™¨ÿç‚9àŠf {üf±¹©njb™¨şËàû¥²ø,¾â™¨ÿ›§›¥ªi–'¶*'ıú'·
-
-}ªi–'¶*'ş6¯iªÜ†+Şªğj·š­ªi–'¶*'ş;(;(ªi–'¶*'şfœn)á{4†¬Z¦™bq«b¢æ³
-+uÚjše‰Æ­Š‰ÿ¥×éuö©¦XœjØ¨Ÿúh²Û®*m¦Ç©±¨š¦™bq«b¢ëµúí}ªi–'¶*'şùİjšezj^‚êå›{¼jše‰Æ­Š‰ÿ¾wf±ì\z\e±ªi–'¶*'şùİšÇèÚç-z‹Z¦™bq«b¢ïÙ¬¦Œ®š"Úiµªi–'¶*'şùİÁªpšW0šW¦™bq«b¢ïØ(¢	^yªí†I¥û¥’iZ¦™bq«b¢ïØ(¢	^yªí†I³’lÚ¦™bq«b¢ñï7(ššŞ²Çï6©¦XœjØ¨Ÿü\¡ÊqÊ¦™bq«b¢ñ«Új·!Š÷‰÷ãj·b}ö©¦XœjØ¨Ÿücjö£Z_ŠW£ZZ¦™bq«b¢ñ™©±é_®éÚ¦™bq«b¢ñ¥êå¦Zfjše‰Æ­Š‰ÿÆ˜¥¢Úkr—[jše‰Æ­Š‰ÿÆ¶«r‰©­ë,yÚÚ­ªi–'¶*'ÿŞv­¥§$j¦jv zºé™ªi–'¶*'ÿjÇšjše‰Æ­Š‰ÿÆÈhrL½çåjÈlÁö©¦XœjØ¨Ÿül¶çßŠÛ"µªi–'¶*'ÿ\–×%¶F©¦XœjØ¨ŸüqçO\iÇ«µ×«¥éœ®Ö©¦XœjØ¨Ÿüq¦)ìµ©eÆ˜š¦™bq«b¢ñ†Ù¥û¥Æf•ªi–'¶*'ÿ)ìf—)}ªi–'¶*'ÿ8©Î*Z¦™bq«b¢èr×­²ÚŞjfâì^vYZ¦™bq«b¢èr×­²ÚŞjg^mªi–'¶*'ş‡-zÛ-­æ¦vh¦™bq«b¢èr×­²ÚŞjh¬¢) jše‰Æ­Š‰ÿ¡Ë^¶Ëky©¦²)¬¦k&jše‰Æ­Š‰ÿ¾wh¥éñšWè®f­²‡ß‰Ç¡Ë¦z{p¢·i®‡²È§‚i]¡Ë¦z{]¡ÌZ¦™bq«b¢ïÚ)z|f•ú+™«l¡÷âqçhréÛ)­æ²¶il…ç­Æ[1jše‰Æ­Š‰ÿ¾wh¥éñšWè®f­²‡ß‰Ç¡Ë¦z{i­ëÖ­Š‰æ–šŞ±éíjØ¨šmÅ«Šæ‰Ø¦‰Ù¢v)­«Šæ¥è&§v®v*?¢(‚®v*?Æn›†š¹Ø¨ÿŞjV®v*+jøz÷‚šw‚šw‚›âuê?š­¶Ëâuê?š&§‹âuê?š— š— š˜/‰×¨ş«¢rKb™é¨¾øzğy¹°y¹¯‰×¨ÿå½ùo¾'^£üfâù¸¾øzñšx&âuê?Æk±ö¬Å«¾'^£üf³	¯Âkï‰×¨ÿ¬¾'^¡«â
+
+types {
+    text/html                             html htm shtml;
+    text/css                              css;
+    text/xml                              xml;
+    image/gif                             gif;
+    image/jpeg                            jpeg jpg;
+    application/javascript                js;
+    application/atom+xml                  atom;
+    application/rss+xml                   rss;
+
+    text/mathml                           mml;
+    text/plain                            txt;
+    text/vnd.sun.j2me.app-descriptor      jad;
+    text/vnd.wap.wml                      wml;
+    text/x-component                      htc;
+
+    image/png                             png;
+    image/tiff                            tif tiff;
+    image/vnd.wap.wbmp                    wbmp;
+    image/x-icon                          ico;
+    image/x-jng                           jng;
+    image/x-ms-bmp                        bmp;
+    image/svg+xml                         svg svgz;
+    image/webp                            webp;
+
+    application/font-woff                 woff;
+    application/java-archive              jar war ear;
+    application/json                      json;
+    application/mac-binhex40              hqx;
+    application/msword                    doc;
+    application/pdf                       pdf;
+    application/postscript                ps eps ai;
+    application/rtf                       rtf;
+    application/vnd.apple.mpegurl         m3u8;
+    application/vnd.ms-excel              xls;
+    application/vnd.ms-fontobject         eot;
+    application/vnd.ms-powerpoint         ppt;
+    application/vnd.wap.wmlc              wmlc;
+    application/vnd.google-earth.kml+xml  kml;
+    application/vnd.google-earth.kmz      kmz;
+    application/x-7z-compressed           7z;
+    application/x-cocoa                   cco;
+    application/x-java-archive-diff       jardiff;
+    application/x-java-jnlp-file          jnlp;
+    application/x-makeself                run;
+    application/x-perl                    pl pm;
+    application/x-pilot                   prc pdb;
+    application/x-rar-compressed          rar;
+    application/x-redhat-package-manager  rpm;
+    application/x-sea                     sea;
+    application/x-shockwave-flash         swf;
+    application/x-stuffit                 sit;
+    application/x-tcl                     tcl tk;
+    application/x-x509-ca-cert            der pem crt;
+    application/x-xpinstall               xpi;
+    application/xhtml+xml                 xhtml;
+    application/xspf+xml                  xspf;
+    application/zip                       zip;
+
+    application/octet-stream              bin exe dll;
+    application/octet-stream              deb;
+    application/octet-stream              dmg;
+    application/octet-stream              iso img;
+    application/octet-stream              msi msp msm;
+
+    application/vnd.openxmlformats-officedocument.wordprocessingml.document    docx;
+    application/vnd.openxmlformats-officedocument.spreadsheetml.sheet          xlsx;
+    application/vnd.openxmlformats-officedocument.presentationml.presentation  pptx;
+
+    audio/midi                            mid midi kar;
+    audio/mpeg                            mp3;
+    audio/ogg                             ogg;
+    audio/x-m4a                           m4a;
+    audio/x-realaudio                     ra;
+
+    video/3gpp                            3gpp 3gp;
+    video/mp2t                            ts;
+    video/mp4                             mp4;
+    video/mpeg                            mpeg mpg;
+    video/quicktime                       mov;
+    video/webm                            webm;
+    video/x-flv                           flv;
+    video/x-m4v                           m4v;
+    video/x-mng                           mng;
+    video/x-ms-asf                        asx asf;
+    video/x-ms-wmv                        wmv;
+    video/x-msvideo                       avi;
+}
