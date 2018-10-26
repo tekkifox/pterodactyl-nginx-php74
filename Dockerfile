@@ -10,6 +10,8 @@ RUN apt update \
     && apt upgrade -y \
     && apt -y install curl software-properties-common locales git \
     && useradd -d /home/container -m container
+    
+RUN locale-gen en_US.UTF-8
 
 RUN add-apt-repository -y ppa:ondrej/php \
     && apt update \
