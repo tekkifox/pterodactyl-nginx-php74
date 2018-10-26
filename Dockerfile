@@ -8,8 +8,12 @@ FROM alpine:3.5
 # We'll likely need to add SSL root certificates
 RUN apk --no-cache add ca-certificates
 
-WORKDIR /usr/local/bin
+USER container
+ENV  USER container
+ENV HOME /home/container
 
-# Change `app` to whatever your binary is called
-Add app .
-CMD ["./app"]
+WORKDIR /home/container
+
+COPY ./entrypoint.sh /entrypoint.sh
+
+CMD ["/bin/bash", "/entrypoint.sh"]
