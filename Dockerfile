@@ -1,29 +1,15 @@
-FROM ubuntu:latest
+# This file is a template, and might need editing before it works on your project.
+# This Dockerfile installs a compiled binary into a bare system.
+# You must either commit your compiled binary into source control (not recommended)
+# or build the binary first as part of a CI/CD pipeline.
 
-    # Ensure UTF-8
-RUN locale-gen en_US.UTF-8
-ENV LANG en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
+FROM alpine:3.5
 
+# We'll likely need to add SSL root certificates
+RUN apk --no-cache add ca-certificates
 
-RUN apt update \
-    && apt upgrade -y \
-    && apt -y install curl software-properties-common locales git \
-    && useradd -d /home/container -m container
-    
-RUN locale-gen en_US.UTF-8
+WORKDIR /usr/local/bin
 
-RUN add-apt-repository -y ppa:ondrej/php \
-    && apt update \
-    && apt -y install php7.2 php7.2-cli php7.2-gd php7.2-mysql php7.2-pdo php7.2-mbstring php7.2-tokenizer php7.2-bcmath php7.2-xml php7.2-fpm php7.2-curl php7.2-zip
-
-
-USER container
-ENV  USER container
-ENV  HOME /home/container
-
-WORKDIR /home/container
-
-#COPY ./entrypoint.sh /entrypoint.sh
-
-CMD ["/bin/echo", "Hello World"]
+# Change `app` to whatever your binary is called
+Add app .
+CMD ["./app"]
