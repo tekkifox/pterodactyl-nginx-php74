@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 
 RUN apk --update --no-cache add ca-certificates nginx php7-common
 
@@ -12,4 +12,4 @@ COPY ./entrypoint.sh /entrypoint.sh
 COPY ./nginx /nginx-conf
 COPY ./php-fpm /phpfpm-conf
 
-#CMD ["/bin/ash", "/entrypoint.sh"]
+CMD ["/bin/sh"]
