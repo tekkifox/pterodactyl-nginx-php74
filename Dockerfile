@@ -9,5 +9,7 @@ ENV HOME /home/container
 WORKDIR /home/container
 
 COPY ./entrypoint.sh /entrypoint.sh
+COPY ./nginx /nginx-conf
+COPY ./php-fpm /phpfpm-conf
 
 CMD ["/bin/bash", "/entrypoint.sh"]
