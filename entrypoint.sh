@@ -3,8 +3,9 @@ sleep 1
 
 cd /home/container
 
-echo "Starting PHP-FPM..."
-/usr/sbin/php-fpm7 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
+# Replace Startup Variables
+MODIFIED_STARTUP=`eval echo $(echo ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')`
+echo ":/home/container$ ${MODIFIED_STARTUP}"
 
-echo "Starting Nginx..."
-/usr/sbin/nginx -c /home/container/nginx/nginx.conf
+# Run the Server
+${MODIFIED_STARTUP}
